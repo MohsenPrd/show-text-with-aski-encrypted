@@ -17,9 +17,9 @@ def decrypt(encrypted_text : str):
 
     decrypted_text = ''
 
-    for aski in encrypted_text:
+    for char in encrypted_text:
 
-        char_aski = ord(aski) // 21 
+        char_aski = ord(char) // 21 
         char_decrypted = chr(char_aski)
         decrypted_text += char_decrypted
 
